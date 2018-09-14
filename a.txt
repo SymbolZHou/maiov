@@ -1,7 +1,10 @@
 git status    		查看被git所管理的文件
 git add a.txt b.txt 		提交文件给git管理 可以一次提交多个文件 空格隔开
-git add .		添加所有的改动过的文件和没有给git管理的文件
+git add .		添加所有的改动过的文件和没有给git管理的文件  
 git config --global user.email "610826321@qq.com"  设置全局下的邮箱
 git config --global user.name "zhouchengbo"     设置全局下的姓名
 git config --global -l   查看全局下设置的邮箱、姓名
 git commit   		提交文件到到本地仓库
+git commit -m '可以直接在提交的时候就对文件进行描述'
+git commit -a -m '每次修改文件之后都需要git add提交到暂存区，这个命令可以跳过直接提交到仓库'
+git log 		查看提交到git的日志
