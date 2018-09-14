@@ -8,4 +8,6 @@ git commit   		提交文件到到本地仓库
 git commit -m '可以直接在提交的时候就对文件进行描述'
 git commit -a -m '这个命令可以跳过暂存区直接提交到仓库，但是所有的文件一定要是git所追踪的'
 git log 		查看提交到git的日志
-git rm a.txt  	删除一个文件
+git rm a.txt  		删除一个文件
+git rm --cache a.txt 	只删除git仓库中的文件
+git tm -f a.txt 	强制删除

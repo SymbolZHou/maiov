@@ -4,4 +4,4 @@ git add .		添加所有的改动过的文件和没有给git管理的文件
 git config --global user.email "610826321@qq.com"  设置全局下的邮箱
 git config --global user.name "zhouchengbo"     设置全局下的姓名
 git config --global -l   查看全局下设置的邮箱、姓名
-git commit   		提交文件到到本地仓库  
+git commit   		提交文件到到本地仓库
