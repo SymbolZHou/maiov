@@ -14,3 +14,6 @@ git rm --cache a.txt 	只删除git仓库中的文件
 git tm -f a.txt 	强制删除
 git mv a.txt 文件夹/a.txt	把文件移动到文件夹 
 git diff 		查看修改后的内容  
+git branch		查看分支
+git branch branchName		创建分支
+git checkout branchName		切换分支
