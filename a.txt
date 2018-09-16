@@ -15,5 +15,8 @@ git tm -f a.txt 	强制删除
 git mv a.txt 文件夹/a.txt	把文件移动到文件夹 
 git diff 		查看修改后的内容  
 git branch		查看分支
+git branch -d branchName 删除分支
 git branch branchName		创建分支
 git checkout branchName		切换分支
+git merge branchName   		合并分支
+git merge --no-f -m '合并分支' branchName		
