@@ -11,4 +11,5 @@ git log 		查看提交到git的日志
 git rm a.txt  		删除一个文件
 git rm --cache a.txt 	只删除git仓库中的文件
 git tm -f a.txt 	强制删除
-git mv a.txt 文件夹/a.txt	把文件移动到文件夹    
+git mv a.txt 文件夹/a.txt	把文件移动到文件夹 
+git diff 		查看修改后的内容  
