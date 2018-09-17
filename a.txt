@@ -19,11 +19,25 @@ git branch		查看分支
 git branch -d branchName 删除分支
 git branch branchName		创建分支
 git checkout branchName		切换分支
-git checkout -- 文件名		返回到之前提交的状态
+git checkout -- 文件名		撤销对文件的修改（没有加入暂存区或者被commit的文件）
 git merge branchName   		合并分支
 git merge --no-f -m '合并分支' branchName
 git merge --abort		撤销合并分支	
 git reset HEAD 文件名		撤销暂存区的文件
+git reset --hard HEAD~2 	提交后恢复删除的文件
 git reset "HEAD^"	撤销最近一次提交
 git reset e8b542e	返回到哈希指定的提交位置
-git reflog 		查看所有的提交记录  	
+git reflog 		查看所有的提交记录  
+
+
+如果另一个分支有过修改，并且添加到了暂存区，这时候切换到其他分支，也会显示其他分支里面的暂存文件，需要先把分支里面的内容存储在去其他分支修改提交
+git stash      存储暂存区内容
+git stash list 	打印存储的列表
+git stash apply stash@{0} --index  取回存取内容
+git stash drop		删除存储列表
+git stash drop 	stash@{0}	删除一条存储记录
+
+变换基底(合并分支用)
+git rebash
+
+
