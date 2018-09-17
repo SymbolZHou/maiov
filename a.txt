@@ -44,4 +44,17 @@ git rebash
 git config --global(local) alias.co checkout (可以用co替换掉checkout)
 
 
+配置忽略文件
+在被git管理的路径下面创建一个文件  .gitignore
+然后输入要被git忽略的文件
 
+git tag v1.0		设置版本标签
+git tag		查看标签
+git tag v0.2 d85b03dc1    可以单独的给某次提交加标签	
+
+
+
+提交远程仓库
+$ git remote add origin https://github.com/eagleBo/maiov.git   链接到远程仓库
+
+$ git push -u origin master 		提交到远程仓库	
