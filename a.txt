@@ -40,4 +40,8 @@ git stash drop 	stash@{0}	删除一条存储记录
 变换基底(合并分支用)
 git rebash
 
+可以更改git里面的名称
+git config --global(local) alias.co checkout (可以用co替换掉checkout)
+
+
 
